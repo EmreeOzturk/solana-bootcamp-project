@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import HeaderMenu from './HeaderMenu';
 const Header = () => {
     return (
         <nav className="navbar bg-base-100">
@@ -16,10 +17,7 @@ const Header = () => {
                 <Link href="/" className="btn btn-ghost text-xl">Logo</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li><Link href="/events">Events</Link></li>
-                    <li><Link href="/">Profile</Link></li>
-                </ul>
+                <HeaderMenu />
             </div>
             <div className="navbar-end">
                 <button className="btn">Connect Wallet</button>
