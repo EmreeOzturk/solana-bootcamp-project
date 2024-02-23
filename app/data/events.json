@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Superteam Event",
+        "description": "Antalya Superteam topluluğu buluşması",
+        "tags": ["Superteam", "Community"],
+        "image": {
+            "src": "https://res.cloudinary.com/dgvnuwspr/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1689167718/Global%20Dashboard/3EB05A88C23EF39E104FDE_7C0_uicwxz.jpg?_s=public-apps",
+            "alt": "superteam"
+        },
+        "location": "Antalya",
+        "date": "2024-02-25" 
+    },
+    {
+        "id": 2,
+        "title": "Coding Workshop",
+        "description": "Hands-on session focused on JavaScript fundamentals.",
+        "tags": ["JavaScript", "Workshop"],
+        "image": {
+            "src": "https://picsum.photos/200/300.webp?random=1",
+            "alt": "coding workshop"
+        },
+        "location": "Istanbul",
+        "date": "2024-03-12" 
+    },
+    { 
+        "id": 3,
+        "title": "Startup Meetup",
+        "description": "Networking and pitching event for new businesses.",
+        "tags": ["Startup", "Networking"],
+        "image": {
+            "src": "https://picsum.photos/200/300.webp?random=2",
+            "alt": "startup meetup"
+        },
+        "location": "Izmir",
+        "date": "2024-04-05" 
+    },
+    { 
+        "id": 4,
+        "title": "Design Conference",
+        "description": "Talks and workshops on UX/UI trends.",
+        "tags": ["Design", "UX", "UI"],
+        "image": {
+            "src": "https://picsum.photos/200/300.webp?random=3",
+            "alt": "design conference"
+        },
+        "location": "Ankara",
+        "date": "2024-05-20"
+    },
+    { 
+        "id": 5,
+        "title": "Web3 Hackathon",
+        "description": "Build decentralized applications.",
+        "tags": ["Web3", "Blockchain", "Hackathon"],
+        "image": {
+            "src": "https://picsum.photos/200/300.webp?random=4",
+            "alt": "web3 hackathon"
+        },
+        "location": "Online",
+        "date": "2024-06-10" 
+    }
+]
