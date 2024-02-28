@@ -1,7 +1,14 @@
+"use client"
 import React from 'react'
 import Link from 'next/link'
 import HeaderMenu from './HeaderMenu';
+import { useWallet } from '@solana/wallet-adapter-react';
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 const Header = () => {
+    const wallet = useWallet();
+    console.log(wallet)
+
+
     return (
         <nav className="navbar bg-base-100">
             <div className="navbar-start">
@@ -20,7 +27,12 @@ const Header = () => {
                 <HeaderMenu />
             </div>
             <div className="navbar-end">
-                <button className="btn">Connect Wallet</button>
+                {/* <button onClick={
+                    async () => {
+                        await handleConnect()
+                    }
+                } className="btn">Connect Wallet</button> */}
+                <WalletMultiButton />
             </div>
         </nav>
     )
