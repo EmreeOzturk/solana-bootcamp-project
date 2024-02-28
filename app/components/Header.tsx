@@ -1,7 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import HeaderMenu from './HeaderMenu';
+import ConnectWalletButton from './ConnectWalletButton';
 const Header = () => {
+
     return (
         <nav className="navbar bg-base-100">
             <div className="navbar-start">
@@ -20,7 +22,7 @@ const Header = () => {
                 <HeaderMenu />
             </div>
             <div className="navbar-end">
-                <button className="btn">Connect Wallet</button>
+                <ConnectWalletButton />
             </div>
         </nav>
     )
